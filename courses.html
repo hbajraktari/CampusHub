@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Courses | CampusHub University</title>
+  </head>
+  <body>
+    <header>
+      <h1>CampusHub</h1>
+      <p>Learn today, lead tomorrow.</p>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html" aria-current="page">Courses</a></li>
+          <li><a href="instructors.html">Instructors</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="announcements.html">Announcements</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="courses-heading">
+        <h2 id="courses-heading">Our Courses</h2>
+        <p>
+          Discover a wide range of courses designed to help you develop new
+          skills, explore your interests, and prepare for your future career.
+        </p>
+      </section>
+
+      <section aria-labelledby="search-heading">
+        <h2 id="search-heading">Find Your Course</h2>
+
+        <form action="courses.html" method="get">
+          <div>
+            <label for="course-search">Search courses</label>
+            <input
+              type="search"
+              id="course-search"
+              name="search"
+              placeholder="Enter a course name..."
+            />
+          </div>
+
+          <div>
+            <label for="department">Department</label>
+            <select id="department" name="department">
+              <option value="">All Departments</option>
+              <option value="computer-science">Computer Science</option>
+              <option value="business">Business</option>
+              <option value="design">Design</option>
+              <option value="languages">Languages</option>
+              <option value="engineering">Engineering</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="level">Course Level</label>
+            <select id="level" name="level">
+              <option value="">All Levels</option>
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </div>
+
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <nav aria-label="Course categories">
+        <h2>Browse Categories</h2>
+        <ul>
+          <li><a href="#computer-science">Computer Science</a></li>
+          <li><a href="#business">Business</a></li>
+          <li><a href="#design">Design</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#engineering">Engineering</a></li>
+        </ul>
+      </nav>
+
+      <section aria-labelledby="available-courses">
+        <h2 id="available-courses">Available Courses</h2>
+
+        <section id="computer-science" aria-labelledby="cs-heading">
+          <h3 id="cs-heading">Computer Science</h3>
+
+          <article>
+            <img
+              src="images/web-development.jpg"
+              alt="A computer screen displaying website code"
+              width="300"
+              height="200"
+            />
+            <h4>Web Development</h4>
+            <p>Department: Computer Science</p>
+            <p>ECTS: 6</p>
+            <p>
+              Learn the fundamentals of creating accessible websites using HTML,
+              CSS, and modern web technologies.
+            </p>
+            <a href="course-web-development.html">View Details</a>
+          </article>
+
+          <article>
+            <img
+              src="images/database-systems.jpg"
+              alt="Database tables and data displayed on a computer"
+              width="300"
+              height="200"
+            />
+            <h4>Database Systems</h4>
+            <p>Department: Computer Science</p>
+            <p>ECTS: 6</p>
+            <p>
+              Explore data storage, database design, SQL, and techniques for
+              managing information.
+            </p>
+            <a href="course-database-systems.html">View Details</a>
+          </article>
+
+          <article>
+            <img
+              src="images/data-structures-algorithms.jpg"
+              alt="A diagram illustrating data structures and algorithms"
+              width="300"
+              height="200"
+            />
+            <h4>Data Structures &amp; Algorithms</h4>
+            <p>Department: Computer Science</p>
+            <p>ECTS: 6</p>
+            <p>
+              Understand how to organize data and develop efficient solutions to
+              programming problems.
+            </p>
+            <a href="course-data-structures.html">View Details</a>
+          </article>
+
+          <article>
+            <img
+              src="images/software-engineering.jpg"
+              alt="A software developer working on a programming project"
+              width="300"
+              height="200"
+            />
+            <h4>Software Engineering</h4>
+            <p>Department: Computer Science</p>
+            <p>ECTS: 6</p>
+            <p>
+              Study software development processes, testing, requirements, and
+              collaborative project planning.
+            </p>
+            <a href="course-software-engineering.html">View Details</a>
+          </article>
+        </section>
+
+        <section id="business" aria-labelledby="business-heading">
+          <h3 id="business-heading">Business</h3>
+
+          <article>
+            <img
+              src="images/digital-marketing.jpg"
+              alt="A digital marketing analytics dashboard"
+              width="300"
+              height="200"
+            />
+            <h4>Digital Marketing</h4>
+            <p>Department: Business</p>
+            <p>ECTS: 5</p>
+            <p>
+              Learn about online advertising, social media, content strategy,
+              and digital campaign planning.
+            </p>
+            <a href="course-digital-marketing.html">View Details</a>
+          </article>
+
+          <article>
+            <img
+              src="images/business-management.jpg"
+              alt="Business professionals discussing a project"
+              width="300"
+              height="200"
+            />
+            <h4>Business Management</h4>
+            <p>Department: Business</p>
+            <p>ECTS: 6</p>
+            <p>
+              Develop an understanding of leadership, organizational strategy,
+              and business operations.
+            </p>
+            <a href="course-business-management.html">View Details</a>
+          </article>
+        </section>
+
+        <section id="design" aria-labelledby="design-heading">
+          <h3 id="design-heading">Design</h3>
+
+          <article>
+            <img
+              src="images/graphic-design.jpg"
+              alt="Graphic design artwork displayed on a computer"
+              width="300"
+              height="200"
+            />
+            <h4>Graphic Design</h4>
+            <p>Department: Design</p>
+            <p>ECTS: 5</p>
+            <p>
+              Explore visual communication, typography, color theory, and
+              digital design principles.
+            </p>
+            <a href="course-graphic-design.html">View Details</a>
+          </article>
+        </section>
+
+        <section id="languages" aria-labelledby="languages-heading">
+          <h3 id="languages-heading">Languages</h3>
+
+          <article>
+            <img
+              src="images/english-language.jpg"
+              alt="English language learning books and study materials"
+              width="300"
+              height="200"
+            />
+            <h4>English Language</h4>
+            <p>Department: Languages</p>
+            <p>ECTS: 5</p>
+            <p>
+              Improve English grammar, vocabulary, academic writing, speaking,
+              and comprehension.
+            </p>
+            <a href="course-english-language.html">View Details</a>
+          </article>
+        </section>
+
+        <section id="engineering" aria-labelledby="engineering-heading">
+          <h3 id="engineering-heading">Engineering</h3>
+
+          <article>
+            <img
+              src="images/electrical-engineering.jpg"
+              alt="Electrical engineering components and circuit boards"
+              width="300"
+              height="200"
+            />
+            <h4>Electrical Engineering</h4>
+            <p>Department: Engineering</p>
+            <p>ECTS: 6</p>
+            <p>
+              Study electrical circuits, electronic components, and the
+              fundamentals of electrical systems.
+            </p>
+            <a href="course-electrical-engineering.html">View Details</a>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 CampusHub University. All rights reserved.</p>
+      <p>
+        Contact us:
+        <a href="mailto:info@campushub.example">Email CampusHub</a>
+      </p>
+    </footer>
+  </body>
+</html>
